@@ -1,3 +1,8 @@
 - backend setup
     - npm init -y
     - npm i express cors mongoose mongodb dotenv
+    - npm i ts-node typescript nodemon @types/express @types/cors @types/node --save-dev
+    - modify scripts and entrypoint in the package.json
+    - npx tsc --init  
+    - mkdir src && touch ./src/index.ts 
+    - add a starter test route with request/response types imported at top
